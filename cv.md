@@ -5,5 +5,11 @@
 * **Email:** i.demin@hotmail.com
 * **GitHub:** [Igwyd](https://github.com/igwyd)
 ## About me
-My name is Igor and i work as a QA engeneer on an awesome project. I want to improve my knowledge and skills in order to be more useful in my work.
+My name is Igor and i work as a QA engineer on an awesome project. I want to improve my knowledge and skills in order to be more useful in my work.
 ## Skills
+* Git, GitHub
+* Windows and Linux administration
+* HTML, CSS, JavaScript (basic knowledge)
+## Languages
+* Russian - native
+* English - B1
