@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicons/icon.png">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <nav class="navigation">
+                <ul class="link uppercase">
+                    <li class="link"><a class="menu uppercase" href="#contacts">contacts</a></li>
+                    <li class="link"><a class="menu uppercase" href="#skills">skills</a></li>
+                    <li class="link"><a class="menu uppercase" href="#projects">projects</a></li>
+                    <li class="link"><a class="menu uppercase" href="#education">education</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="main">
+                <div class="main__boxphoto">
+                    <img src="./assets/img/avatar.png" class="main__photo" alt="my photo">
+                </div>
+                <div class="main__prof">
+                    <h1 class="uppercase"><span class="firstname">igor</span> demin</h1>
+                    <h2 class="prof uppercase">js developer</h2>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <div class="contacts__con">
+                <h3 class="uppercase">contacts</h3>
+                    <ul>
+                        <li>Location: Riga, Latvia</li>
+                        <li>Phone: +123 456 78 90</li>
+                        <li>Email: i.demin@hotmail.com</li>
+                        <li>GitHub: <a href="https://github.com/igwyd">Igwyd</a></li>
+                    </ul>
+                </div>
+                <div class="contacts__about">
+                    <h3 class="uppercase">about me</h3>
+                    <p>My name is Igor and i work as a QA engineer on an awesome project. I want to improve my knowledge and skills in order to be more useful in my work.</p>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <div class="skills__sk">
+                    <h3 class="uppercase">skills</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>Windows and Linux administration</li>
+                        <li>HTML, CSS, JavaScript (basic knowledge)</li>
+                    </ul>
+                </div>
+                <div class="skills__exp">
+                    <h3 class="uppercase">expirience</h3>
+                    <ul>
+                        <li>System Administrator: 2013 - 2020</li>
+                        <li>Quality Assurance: 2020 - present day</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="projects__proj">
+                    <h3 class="uppercase">projects</h3>
+                    <ul>
+                        <li><a href="https://github.com/igwyd/rsschool-cv">My CV</a></li>
+                        <li><a href="https://github.com/igwyd/SQL_course">SQL_course</a></li>
+                    </ul>
+                </div>
+                <div class="projects__code">
+                    <h3 class="uppercase">code example</h3>
+<pre><code>SELECT * FROM employees 
+WHERE first_name like '____%'
+ORDER BY department_id DESC NULLS LAST;
+                    </code></pre>
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <div class="education__edu">
+                    <h3 class="uppercase">education</h3>
+                    <ul>
+                        <li>University name</li>
+                        <li>QA courses</li>
+                        <li>RS School</li>
+                    </ul>
+                </div>
+                <div class="education__lang">
+                    <h3 class="uppercase">languages</h3>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - B1</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__c uppercase">© 2022 <a href="https://github.com/igwyd" class="uppercase menu">igwyd</a></div>
+                <a href="https://rs.school/js/"><img  class="rs__logo" src="./assets/logo/rs_school_js.svg" alt="rs logo"></a>
+              </div>
+        </footer>
+    </div>
+</body>
+</html>
