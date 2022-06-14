@@ -1,3 +1,155 @@
-p {
-    color: red;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+  
+ul,
+ol {
+    padding: 0;
+}
+  
+body,
+span,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-size: inherit;
+}
+  
+ul {
+    list-style: none;
+}
+  
+  
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1050px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.navigation {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.menu,
+h3 {
+    color: rgb(64, 117, 95);;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__boxphoto {
+    width: 300px;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.main__photo {
+    max-width: 200px;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 245);
+}
+
+.main__prof{
+  width: 600px;
+  padding-top: 75px;
+  padding-right: 400px;
+}
+
+.prof {
+    color: white;
+    background-color: rgb(64, 117, 95);
+}
+
+.highlight {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills,
+.contacts,
+.projects,
+.education {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.skills__sk,
+.contacts__con,
+.projects__proj,
+.education__edu {
+    width: 300px;
+    text-align: right;
+}
+
+.skills__exp,
+.contacts__about,
+.projects__code,
+.education__lang {
+    width: 600px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__c {
+    width: 500px;
+}
+
+.rs__logo {
+    width: 100px;
 }

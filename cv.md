@@ -8,7 +8,7 @@
 * **GitHub:** [Igwyd](https://github.com/igwyd)
 
 ## About me
-My name is Igor and i work as a QA engineer on an awesome project. I want to improve my knowledge and skills in order to be more useful in my work.
+My name is Igor and i work in an awesome project. I want to improve my knowledge and skills in order to be more useful in my work.
 
 ## Skills
 * Git, GitHub
